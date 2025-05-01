@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    background-color: #F7F7F7;
+    margin: auto;
+    position: relative;
+    left: 0px;
+    right: 0px;
+
+}
+
+#all {
+    width: 100vh;
+    height: 100vh;
+    margin: auto;
+}
+
+nav {
+    background-color: #FFFFFF;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 5%;
+    left: 0px;
+    right: 0px;
+    box-shadow: none;
+}
+
+nav a {
+    text-decoration: none;
+    line-height: 6vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    color: #A0A0A0;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+#divm {
+   position: relative;
+   top: 5.5%;
+}
+
+#main {
+    height: 60vh;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px 1px #999;
+}
+
+#main_left {
+    width: 30vh;
+    box-shadow: 0 0 5px 1px #999;
+    display: inline-block;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+h2 {
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #FFFFFF;
+    color: #202020;
+}
+
+#main_left img {
+    width: 30vh;
+    height: 22.2vh;
+}
+
+#main_left p {
+    margin-left: 1vh;
+    line-height: 5vh;
+}
+
+#main_left span {
+    font-weight: bold;
+}
+
+#main_right {
+    position: relative;
+    width: 60vh;
+    margin-left: 5vh;
+    display: inline-block;
+    height: 20vh;
+}
+
+#main_right p {
+    width: 60vh;
+    display: inline-block;
+    margin-left: 10px;
+    text-indent: 32px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+#last {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px 1px #999;
+}
+
+#picture {
+    font-size: 0px;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+#picture p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 60px;
+}
+
+footer {
+    line-height: 60px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #CCD0D9;
+}
+
+#main_right ul li span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-left: 80px;
+}
+
+
+
